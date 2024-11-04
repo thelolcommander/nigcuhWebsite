@@ -1,0 +1,45 @@
+* {
+	font-family: monospace;
+	font-size: 18px;
+	color: white;
+}
+body {
+	background-image: url("gridBackground.png");
+	background-size: 5vh;
+	background-repeat: repeat;
+	background-color: #4f4f4f;
+}
+.welcomeBackground {
+	width: 75%;
+	margin: auto;
+	margin-top: 5%;s
+
+	border-image: linear-gradient(to right, red, purple);
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 10px;
+
+	text-align: center;
+	color: #1a4880;
+	font-size: 32px;
+}
+h1.homepageButton {
+	width: 25%;
+	margin: auto;
+	margin-top: 8%;
+
+	background-color: #2465b5;
+	border-width: 35px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #2465b5;	
+
+	text-align: center;
+	display: block;
+	font-size: 32px;
+}
+h1.homepageButton:hover {
+	background-color: #2a74d0;
+	border-color: #2a74d0;
+}
+
