@@ -1,0 +1,147 @@
+* {
+	font-family: monospace;
+	font-size: 1.1em;
+	text-decoration: none;
+
+	margin: 0;
+}
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+
+/* TOP BAR */
+
+table {
+	margin-top: -20px;
+	position: sticky;
+}
+
+th {
+	position: sticky;
+}
+
+td {
+	border-spacing: 10px;
+	font-weight: bold;
+	font-size: 32px;
+	color: black;
+	padding: 10px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+}
+
+.topBar {
+	background-color: #ddd;
+	color: white;
+	font-size: 10px;
+
+	width: 90%;
+	padding: 10px 0;
+
+	text-align: center;
+	position: sticky;
+	display: inline-block;
+	margin-top: -800px;
+
+	border-top: 30px solid black;
+	border-left: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 5px solid black;
+}
+
+.shopButtons {
+	border-bottom: 2px solid black;
+	border: 1px solid black;
+
+	position: sticky;
+	display: inline;
+}
+
+.centerImage {
+	position: fixed;
+	text-align: center;
+  display: inline-block;
+
+	display: inline-block;
+}
+
+.itemListing {
+	position: fixed;
+	margin-top: 30px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 5px solid black;
+}
+
+a {
+	color: black;
+	transition: text-decoration 0.5s ease;
+}
+
+a:hover {
+	text-decoration: underline;
+	/* update asap */
+}
+
+h6 {
+	margin-top: 0px;
+	background-color: black;
+	color: white;
+	width: 100px;
+}
+
+/* Background */
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #313131;
+  background-size: 30px 30px;
+  background-position: -5px -5px;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Light Mode */
+.light-mode .container {
+  background-color: #cecece;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Dark Mode Toggle Button */
+#toggle-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.light-mode #toggle-button {
+  background-color: #ddd;
+  color: #333;
+}
+
+#toggle-button:hover {
+  background-color: #666;
+}
+
+.light-mode #toggle-button:hover {
+  background-color: #ccc;
+}
+
